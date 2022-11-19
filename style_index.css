@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    border: 1px solid #ccc;
+    width: 320px;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 13vw;
+}
+
+.conteudo h2 {
+    font-weight: normal;
+}
+
+.logo img {
+    height: 25px;
+    margin-top: 60px;
+}
+
+.validacao {
+    position: relative;
+}
+
+.validacao form label .email {
+    width: 80%;
+    height: 5vh;
+    font-size: 17px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.validacao input {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+
+button {
+    margin-bottom: 50px;
+}
+
+.botao a input{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(214.08,81.75%,50.59%);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.texto-info {
+    font-size: 12px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 7px;
+}
+
+.texto-info p {
+    color: hsl(210,3.39%,46.27%);
+}
+
+.texto-info a {
+    color: hsl(214.08,81.75%,50.59%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.validacao form label .password {
+    width: 80%;
+    height: 5vh;
+    font-size: 17px;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.validacao span{
+    position: absolute;
+    right: 15px;
+    margin-top: -34px;
+    margin-right: 10%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.validacao input:valid ~ span{
+    display: block;
+}
+
+.validacao span i.hide-btn::before{
+    content: "\f070";
+}
+
+footer {
+    color: #aaa;
+    text-align: center;
+}
+
+@media (min-width: 724px) {
+
+    main {
+        width: 430px;
+    }
+
+    .validacao span {
+        margin-top: -40px;
+    }
+
+    footer {
+        color: #aaa;
+        text-align: center;
+    }
+}
+
+
+   
+

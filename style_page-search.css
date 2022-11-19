@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header {
+    max-width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.header ul li {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    padding: 5px;
+    font-size: 13px;
+    margin-top: -20px;
+    color: #1C1C1C	;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header img {
+    width: 20px;
+}
+
+.header .perfil{
+    width: 30px;
+    border-radius: 50px;
+    margin-right: 17px;
+}
+
+.forms {
+    margin-top: 20vh; 
+    text-align: center;
+}
+
+.logo {
+    height: 87px;
+    margin-bottom: 20px;
+}
+
+.forms label img {
+    width: 17px;
+}
+
+.forms form label {
+    width: 270px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 13px;
+    gap: 20px;
+    align-items: center;
+}
+
+.forms input {
+    border: none;
+    outline: none;
+    width: 100px;
+    font-size: 16px;
+}
+
+.forms form label .lupa {
+    width: 26px;
+}
+
+.forms form label .teclado {
+    width: 23px;
+    height: 13px;
+}
+
+.forms form label .fotos img{
+    margin-right: -20px;
+}
+
+.botao {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.botao button {
+    border: none;
+    padding: 10px;
+    color: hsl(30,6.33%,30.98%);
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.botao button:hover {
+    color: #1C1C1C;
+}
+
+footer {
+    color: #aaa;
+    text-align: center;
+    margin-top: 60%;
+}
+
+@media (min-width: 724px) {
+
+    .header {
+        max-width: 100vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .header ul li {
+        font-family: 'Roboto', sans-serif;
+        display: inline-block;
+        padding: 5px;
+        font-size: 13px;
+        margin-top: -20px;
+        color: #1C1C1C	;
+    }
+
+    .forms form label {
+        width: 550px;
+        border-radius: 30px;
+        border: 1px solid #ddd;
+        display: flex;
+        margin: 0 auto;
+        padding: 10px 13px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .forms input {
+        border: none;
+        outline: none;
+        width: 450px;
+        font-size: 16px;
+    }
+
+    .forms label img {
+        width: 17px;
+    }
+
+    .forms form label .lupa {
+        width: 26px;
+    }
+    
+    .forms form label .teclado {
+        width: 23px;
+        height: 13px;
+    }
+
+    footer {
+        color: #aaa;
+        text-align: center;
+        margin-top: 24.5%;
+    }
+    
+}
